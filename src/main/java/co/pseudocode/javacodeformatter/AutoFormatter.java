@@ -1,28 +1,27 @@
 package co.pseudocode.javacodeformatter;
 
+
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 public class AutoFormatter {
-     private String name;private List<String> values;
-     private  
-     int value;
-     
+    private String name;
+    private List<String> values;
+    private int value;
 
-  public String getName() {
-    return name;
-  }  public void setName(String name) {
-    this.name = name;
-  }
+    public String getName() {
+        return name;
+    }
 
-  public List<String> getValues() {
-    return values;
-  }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-  
-  /* java code with comments*/ 
-  public void setValues(List<String> values) {
-    this.values = values;
-  }
+    public List<String> getValues() {
+        return values;
+    }
+
+    /* java code with comments*/
+    public void setValues(List<String> values) {
+        this.values = values;
+    }
 }
