@@ -6,6 +6,9 @@ import java.util.Set;
 
 public class AutoFormatter {
      private String name;private List<String> values;
+     private  
+     int value;
+     
 
   public String getName() {
     return name;
